@@ -80,7 +80,7 @@ For extracting the parasitic capacitance and resistance after layout design some
 
 6. **Post-layout simulation**
 > Post-layout simulations use the completed PCB layout as their basis. It involves extraction of physical information from the routed board. Items like traces, planes, and vias with defined geometries are automatically modeled, as are simpler components such as discrete devices. We add models for the ICs, connectors, and other connected components to run simulations. In each case, these user inputs are translated into a simulation schematic used by the simulator. Moreover, both types of simulations have the same simulation results. For signal-integrity simulations, the results appear as time/voltage waveforms that identify signal quality and timing information, and they can be displayed as waveforms or tables of data
-7. Tapeout deploy
+7. **Tapeout deploy**
 > GDS file can be created using the option File > Write GDS. Although the GDSII file is considered the final format which is sent for fabrication, the IC designed cannot be send as such. The design need to be "prepared" for fabrication process. This preparation is called the tapeout. Any addition which helps connect the wafer to outside world would come under this preparation. This may include adding I-O ports, UART and other peripherals. We will be using Efabless free "shuttle", Caravel SoC.
 Within the design for caravel, the IP can be added using Place Instance option within the magic tool. After placing, the inputs and outputs need to be connected to the carvel template.
 
@@ -131,7 +131,6 @@ magic -T <technology_file_name> <layout_file_name>
 | --- | --- |
 | Pre-layout simulation | <img src="https://user-images.githubusercontent.com/78468534/127783355-32111d1c-00c2-4697-a09f-596713cf9852.jpeg" width="40%"> |
 | Layout development | <img src="https://user-images.githubusercontent.com/78468534/127783571-8c9939d1-c883-4e21-a04e-97d139257e1e.jpeg" width="40%"> |
-| **Parastic Extraction**  | <img src="https://user-images.githubusercontent.com/78468534/127783571-8c9939d1-c883-4e21-a04e-97d139257e1e.jpeg" width="40%"> |
 | **Post-layout simulation** | <img src="https://user-images.githubusercontent.com/78468534/127806827-8bbbbe93-b09a-42f9-949f-270688a8c93b.jpeg" width="40%"> |
 | **Tapeout** | <img src="https://user-images.githubusercontent.com/78468534/127823532-b9664a56-5e88-4bdb-b81d-7aec36127d15.jpeg" width="40%"> |
 
