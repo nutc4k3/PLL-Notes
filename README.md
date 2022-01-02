@@ -60,7 +60,7 @@ The design flow of the PLL IC could take the following steps:
 
 1. **SPICE level circuit**
 > Program used in integrated circuit and board-level design to check the integrity of circuit designs and to predict circuit behavior.
-2. Pre-layout simulation
+2. **Pre-layout simulation**
 > Pre-layout simulations take place before completing the PCB layout. For pre-layout simulation, we must build up a circuit schematic to include all elements of the simulation. For signal-integrity purposes, this includes IC buffer models, package models, trace models, vias, discrete components, and any connectors and cables. In terms of power integrity, this includes plane shapes, stitching vias, capacitors, power sources, and loads (ICs).
 
 4. **Layout development**
