@@ -134,8 +134,9 @@ magic -T <technology_file_name> <layout_file_name>
 | --- | --- |
 | Pre-layout simulation | <img src="https://github.com/nutc4k3/PLL-Notes/blob/2f0dcc57996da59c5646d0e96a157ce1534c42d8/images/Prelayout_sim/pll_prelayout_sim.png" width="40%"> <img src="https://github.com/nutc4k3/PLL-Notes/blob/2f0dcc57996da59c5646d0e96a157ce1534c42d8/images/Prelayout_sim/pll2_prelayout_sim.png" width="40%">|
 | Layout development | <img src="https://github.com/nutc4k3/PLL-Notes/blob/bd0126b0f799eaf40b8484877a2cea9a30a73b2b/images/Layout/pll_layout.png" width="60%"> |
-| **Post-layout simulation** | <img src="https://user-images.githubusercontent.com/78468534/127806827-8bbbbe93-b09a-42f9-949f-270688a8c93b.jpeg" width="40%"> |
-| **Tapeout** | <img src="https://user-images.githubusercontent.com/78468534/127823532-b9664a56-5e88-4bdb-b81d-7aec36127d15.jpeg" width="40%"> |
+| Parasitic Extraction | - |
+| Post-layout simulation | - |
+| Tapeout | - |
 
 ## Acknowledgment
 
