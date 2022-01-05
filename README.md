@@ -98,13 +98,14 @@ magic -T <technology_file_name> <layout_file_name>
 ```
 
 #### Supporting Files
-- [Compiled tools and scripts](https://github.com/lakshmi-sathi/avsdpll_1v8/)  -> **Ready to use 130nm PLL Clock Multiplier IP and base files.**
+- [Resources and scripts](https://github.com/lakshmi-sathi/avsdpll_1v8/)  -> **Ready to use 130nm PLL Clock Multiplier IP and base files.**
 - [Sky130 PDK](https://github.com/google/skywater-pdk) -> **Google-Skywater SKY130 is a set of 180nm-130nm technology based process nodes and Process Design Kits provided for free.**
 
 ---------
 
 ## Circuit Design and Simulation
 ### Specifications
+> 8x PLL Clock Multipler IP on Google-skywater 130nm node
 
 | Parameter | Description | min | typ | max | Unit | Conditions |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -112,7 +113,7 @@ magic -T <technology_file_name> <layout_file_name>
 | F<sub>CLKREF</sub> | Reference | 5 | - | 12.5 | MHz | T = 27C |
 | F<sub>CLKOUT</sub> | Output Clock | 40 | - | 100 | MHz | PLL Mode, T = 27C |
 | F<sub>CLKOUT</sub> | Output Clock | - | - | - | MHz | VCO Mode, T = 27C |
-| J<sub>RMS</sub> | Jitter (rms) | - | - | - | ps | PLL_Mode |
+| J<sub>RMS</sub> | Jitter (rms) | - | - | 20 | ns | PLL Mode |
 | DC | Duty Cycle | 52.7 | - | 50 | % | T = 27C | 
 | T<sub>SET</sub> | Settling Time | ~37 | - | ~22 | ns | T = 27C |
 | C<sub>L</sub> | Load Capacitance | - | - | - | fF | T = 27C |
